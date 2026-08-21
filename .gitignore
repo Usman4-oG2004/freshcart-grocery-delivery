@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment variables
+.env
+.env.local
+
+# React Native
+*.keystore
+!debug.keystore
+
+# Android
+frontend/android/app/build/
+driver-app/android/app/build/
+*.apk
+*.aab
+
+# iOS
+frontend/ios/Pods/
+driver-app/ios/Pods/
+*.ipa
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Testing
+coverage/
+
+# Misc
+.cache
